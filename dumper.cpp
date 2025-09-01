@@ -29,7 +29,7 @@
 
 // Use app's private storage on non-rooted devices
 #ifdef __ANDROID__
-constexpr const char* RAW_DATA_DIR = "/storage/emulated/0/";
+constexpr const char* RAW_DATA_DIR = "/storage/emulated/0/Android/data/com.termux/files/rawData/";
 constexpr const char* MODULE_NAME = "libunity.so";
 #else
 constexpr const char* RAW_DATA_DIR = "./rawData";
